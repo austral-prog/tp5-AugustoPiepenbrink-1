@@ -9,8 +9,3 @@ def number_to_month(month):
 	else:
 		
 		return "error"
-	
-numero_de_mes = int(input("Ingresá un número del 1 al 12 para saber el mes:"))
-
-mes = number_to_month(numero_de_mes)
-print(f"El mes es: {mes}")
